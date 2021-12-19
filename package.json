@@ -5,9 +5,10 @@
   "main": "./src/index.js",
   "scripts": {
     "watch:scss": "node-sass ./scss/main.scss ./src/components/App.css -w",
-    "dev": "NODE_ENV=development webpack serve --open --config ./config/webpack.dev.js",
+    "dev:client": "NODE_ENV=development webpack serve --open --config ./config/webpack.dev.js",
+    "dev:server": "nodemon server.js",
     "start": "npm-run-all --parallel dev watch:scss",
-    "dev:start": "npm-run-all --parallel dev compile:scss",
+    "dev:start": "npm-run-all --parallel dev:client dev:server compile:scss",
     "compile:scss": "node-sass ./scss/main.scss ./src/components/App.css"
   },
   "author": "Anthony",
