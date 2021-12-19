@@ -8,3 +8,33 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.features {
+  background-color: #aaa; }
+
+.footer {
+  background-color: #101d2c; }
+
+.header {
+  background-color: #54483A; }
+
+.homes {
+  background-color: #101d2c; }
+
+.realtors {
+  background-color: #101d2c; }
+
+.sidebar {
+  background-color: #c69963; }
+
+.story__pictures {
+  background-color: #c69963; }
+
+.story__content {
+  background-color: #f9f7f6; }

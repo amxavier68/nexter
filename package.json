@@ -9,7 +9,7 @@
     "dev:server": "nodemon server.js",
     "start": "npm-run-all --parallel dev watch:scss",
     "dev:start": "npm-run-all --parallel dev:client dev:server compile:scss",
-    "compile:scss": "node-sass ./scss/main.scss ./src/components/App.css"
+    "compile:scss": "node-sass ./scss/main.scss ./src/components/App.css -w"
   },
   "author": "Anthony",
   "license": "ISC",
