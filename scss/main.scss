@@ -3,8 +3,10 @@
 @import 'base/reset',
         'base/typography';
 
-@import 'layout/features',
+@import 'layout/container',
+        'layout/features',
         'layout/footer',
+        'layout/gallery',
         'layout/header',
         'layout/homes',
         'layout/realtors',
