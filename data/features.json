@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "icon-global",
+    "heading": "World's best luxury homes",
+    "contents": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus."
+  },
+  {
+    "id": 2,
+    "icon": "icon-global",
+    "heading": "Only the best properties",
+    "contents": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus."
+  },
+  {
+    "id": 3,
+    "icon": "icon-map-pin",
+    "heading": "All homes in in top locations",
+    "contents": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus."
+  },
+  {
+    "id": 4,
+    "icon": "icon-key",
+    "heading": "New home in one week",
+    "contents": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus."
+  },
+  {
+    "id": 5,
+    "icon": "icon-presentation",
+    "heading": "Top 1% realtors",
+    "contents": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus."
+  },
+  {
+    "id": 6,
+    "icon": "icon-lock",
+    "heading": "Secure payments on nexter",
+    "contents": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus."
+  }
+]
