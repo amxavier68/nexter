@@ -6,10 +6,15 @@ $color-secondary: #101d2c;
 
 $color-grey-light-1: #f9f7f6;
 $color-grey-light-2: #aaa;
-
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
+
+// MARGINS
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 3rem; }
+.mb-lg { margin-bottom: 4rem; }
+.mb-xl { margin-bottom: 8rem; }
