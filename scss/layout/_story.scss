@@ -1,7 +1,7 @@
 .story {
-  grid-column: full-start / full-end;
   display: grid;
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  grid-column: full-start / full-end;
   
   &__pictures {
     background-color: $color-primary;
@@ -12,5 +12,12 @@
   &__content {
     background-color: $color-grey-light-1;
     grid-column: col-start 5 / full-end;
+
+    padding: 6rem 12rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    font-style: italic;
   }
 }
