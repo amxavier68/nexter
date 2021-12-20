@@ -104,8 +104,57 @@ body {
   grid-column: full-start / col-end 6; }
 
 .homes {
-  background-color: #101d2c;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem; }
+  .homes .home {
+    background-color: #f9f7f6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 3.5rem; }
+    .homes .home__img {
+      width: 100%;
+      grid-row: 1 / 2;
+      grid-column: 1 / -1;
+      z-index: 1; }
+    .homes .home__like {
+      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+      color: #c69963;
+      font-size: 2.5rem;
+      z-index: 2;
+      justify-self: end;
+      margin: 1rem; }
+    .homes .home__name {
+      grid-row: 1 / 2;
+      grid-column: 1 / -1;
+      z-index: 3;
+      justify-self: center;
+      align-self: end;
+      width: 80%;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 1.6rem;
+      text-align: center;
+      padding: 1.25rem;
+      background-color: #101d2c;
+      color: #fff;
+      font-weight: 400;
+      transform: translateY(50%); }
+    .homes .home__location, .homes .home__rooms {
+      margin-top: 2.5rem; }
+    .homes .home__location, .homes .home__rooms, .homes .home__area, .homes .home__price {
+      font-size: 1.5rem;
+      margin-left: 2rem;
+      display: flex;
+      align-items: center; }
+      .homes .home__location span, .homes .home__rooms span, .homes .home__area span, .homes .home__price span {
+        color: #c69963;
+        font-size: 2rem;
+        margin-right: 1rem; }
+    .homes .home__btn {
+      grid-column: 1 / -1; }
 
 .realtors {
   background-color: #101d2c;
