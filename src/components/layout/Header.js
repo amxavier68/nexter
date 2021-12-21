@@ -11,7 +11,6 @@ import Logos4 from '../../../public/img/logo-bi.png';
 const Header = () => {
   return (
     <header className='header'>
-
       <img src={Logo} className='header__logo' alt='Nexter Logo' />
       <h3 className='heading-3'>Your own home:</h3>
       <h1 className='heading-1'>The ultimate personal freedom</h1>
@@ -22,10 +21,7 @@ const Header = () => {
         <img src={Logos2} alt='forbes' />
         <img src={Logos3} alt='techcrunch' />
         <img src={Logos4} alt='business insider' />
-
       </div>
-
-
     </header>
   )
 }
